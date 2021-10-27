@@ -20,13 +20,20 @@ typedef struct {
 } tipoSorteo;
 
 void llenarCarton(tipoCarton *carton, tipoSorteo *cartonesEnJuego) {
-    int codigoJugador, i, cant;
+    int codigoJugador, i, cant, j, numero;
     cant=cartonesEnJuego->totalCartones;
-    for (i = 0; i < cant; i++) {
+    do {
         scanf("%d", &codigoJugador);
-        carton->cartonJugador[i]=codigoJugador;
-    }
+        for (i = 0; i < 5; i++) {
+            for(j=0;j<5;j++){
+                scanf("%d", &numero);
+                carton->cartonJugador[i][j].numero=numero;
+            }
+        }
+    }while(codigoJugador!=0);
 }
+
+
 
 int main(void) {
 
