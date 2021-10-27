@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2021.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\bingo.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\bingo.dir/objects.a @CMakeFiles\bingo.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\bingo.dir/objects.a -Wl,--no-whole-archive -o bingo.exe -Wl,--out-implib,libbingo.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\bingo.dir\linklibs.rsp

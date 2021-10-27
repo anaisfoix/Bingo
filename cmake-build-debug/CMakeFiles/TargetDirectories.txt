@@ -1,0 +1,3 @@
+C:/Users/Admn/CLionProjects/bingo/cmake-build-debug/CMakeFiles/bingo.dir
+C:/Users/Admn/CLionProjects/bingo/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Admn/CLionProjects/bingo/cmake-build-debug/CMakeFiles/rebuild_cache.dir
